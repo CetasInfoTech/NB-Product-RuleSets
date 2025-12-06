@@ -1,0 +1,11 @@
+{
+    "name": "BC NB Product Error Ruleset",
+    "description": "The global error ruleset file used for all Business Central NB Products",
+    "rules": [
+        {
+            "id": "AL0667",
+            "action": "Error",
+            "justification": "InDataset Property has been deprecated by Microsoft"
+        }
+    ]
+}

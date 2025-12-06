@@ -1,4 +1,14 @@
 {
   "name": "NB Product Business Central Ruleset",
-  "description": "The global ruleset file used for all Business Central NB Products"
+  "description": "The global ruleset file used for all Business Central NB Products",
+  "includedRuleSets": [
+    {
+      "path": "BC-Error.ruleset.json",
+      "action": "Error"
+    },
+    {
+      "path": "BC-Warning.ruleset.json",
+      "action": "Warning"
+    }
+  ]
 }
