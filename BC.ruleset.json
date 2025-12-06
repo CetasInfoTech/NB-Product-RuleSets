@@ -3,11 +3,11 @@
   "description": "The global ruleset file used for all Business Central NB Products",
   "includedRuleSets": [
     {
-      "path": "BC-Error.ruleset.json",
+      "path": "https://raw.githubusercontent.com/CetasInfoTech/NB-Product-RuleSets/main/BC-Error.ruleset.json",
       "action": "Error"
     },
     {
-      "path": "BC-Warning.ruleset.json",
+      "path": "https://raw.githubusercontent.com/CetasInfoTech/NB-Product-RuleSets/main/BC-Warning.ruleset.json",
       "action": "Warning"
     }
   ]
