@@ -21,6 +21,11 @@
             "id": "LC0001",
             "action": "Warning",
             "justification": "Flowfields should not be editable on the table level as directed by Microsoft"
+        },
+        {
+            "id": "LC0028",
+            "action": "Warning",
+            "justification": "String Literals cannot be used in Event Subscribers as they limit implementation and reference searches."
         }
     ]
 }
