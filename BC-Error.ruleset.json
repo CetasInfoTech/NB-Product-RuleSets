@@ -6,6 +6,11 @@
             "id": "LC0001",
             "action": "Error",
             "justification": "Flowfields should not be editable on the table level as directed by Microsoft"
+        },
+        {
+            "id": "AL0667",
+            "action": "Warning",
+            "justification": "InDataset and ForUpdate Property has been deprecated by Microsoft"
         }
     ]
 }
