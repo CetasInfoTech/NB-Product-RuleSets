@@ -3,19 +3,9 @@
     "description": "Description",
     "rules": [
         {
-            "id": "AL0667",
-            "action": "Warning",
-            "justification": "InDataset Property has been deprecated by Microsoft"
-        },
-        {
             "id": "AL0604",
             "action": "Warning",
             "justification": "Implicit WITH Statements have been deprecated by Microsoft"
-        },
-        {
-            "id": "AL0667",
-            "action": "Warning",
-            "justification": "Findset's second parameter has been deprecated by Microsoft"
         },
         {
             "id": "LC0028",
