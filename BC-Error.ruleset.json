@@ -9,7 +9,7 @@
         },
         {
             "id": "AL0667",
-            "action": "Warning",
+            "action": "Error",
             "justification": "InDataset and ForUpdate Property has been deprecated by Microsoft"
         }
     ]
