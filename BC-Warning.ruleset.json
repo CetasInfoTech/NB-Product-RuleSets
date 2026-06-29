@@ -5,12 +5,17 @@
         {
             "id": "AL0604",
             "action": "Warning",
-            "justification": "Implicit WITH Statements have been deprecated by Microsoft"
+            "justification": "Implicit WITH Statements have been deprecated by Microsoft."
         },
         {
             "id": "LC0028",
             "action": "Warning",
             "justification": "String Literals cannot be used in Event Subscribers as they limit implementation and reference searches."
+        },
+        {
+            "id": "LC0068",
+            "action": "Warning",
+            "justification": "All objects must have explicit permission declaration on accessing tabledata".
         }
     ]
 }
