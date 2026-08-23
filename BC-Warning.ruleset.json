@@ -26,6 +26,11 @@
             "id": "AC0032",
             "action": "Warning",
             "justification": "Unused permission declared; remove unused entries and reduce overly broad permission chars to match actual usage"
+        },
+        {
+            "id": "FC0002",
+            "action": "Warning",
+            "justification": "Casing of identifier references should match the original declaration for readability"
         }
     ]
 }
