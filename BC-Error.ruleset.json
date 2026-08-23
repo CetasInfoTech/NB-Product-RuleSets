@@ -61,6 +61,11 @@
             "id": "AA0008",
             "action": "Error",
             "justification": "Function calls should have parenthesis even if they do not have any parameters"
+        },
+        {
+            "id": "AL0679",
+            "action": "Error",
+            "justification": "The application object is not included in any entitlement and will therefore not be accessible in the cloud"
         }
     ]
 }
