@@ -8,14 +8,24 @@
             "justification": "Implicit WITH Statements have been deprecated by Microsoft."
         },
         {
-            "id": "LC0028",
+            "id": "DC0004",
             "action": "Warning",
-            "justification": "String Literals cannot be used in Event Subscribers as they limit implementation and reference searches."
+            "justification": "Public procedures must include XML documentation comments for IntelliSense and API consumers"
         },
         {
-            "id": "LC0068",
+            "id": "AC0015",
+            "action": "Error",
+            "justification": "ToolTip on table fields and page field controls should start with Specifies"
+        },
+        {
+            "id": "DC0001",
             "action": "Warning",
-            "justification": "All objects must have explicit permission declaration on accessing tabledata".
+            "justification": "Commit requires a comment explaining why, since manual commits interrupt the platform transaction model"
+        },
+        {
+            "id": "AC0032",
+            "action": "Warning",
+            "justification": "Unused permission declared; remove unused entries and reduce overly broad permission chars to match actual usage"
         }
     ]
 }

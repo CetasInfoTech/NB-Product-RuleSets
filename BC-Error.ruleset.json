@@ -3,7 +3,7 @@
     "description": "The global error ruleset file used for all Business Central NB Products",
     "rules": [
         {
-            "id": "LC0001",
+            "id": "PC0001",
             "action": "Error",
             "justification": "Flowfields should not be editable on the table level as directed by Microsoft"
         },
@@ -11,6 +11,56 @@
             "id": "AL0667",
             "action": "Error",
             "justification": "InDataset and ForUpdate Property has been deprecated by Microsoft"
+        },
+        {
+            "id": "FC0001",
+            "action": "Error",
+            "justification": "Method declaration should not end in semicolon"
+        },
+        {
+            "id": "AC0031",
+            "action": "Warning",
+            "justification": "All objects must have explicit permission declaration on accessing tabledata"
+        },
+        {
+            "id": "LC0028",
+            "action": "Warning",
+            "justification": "String Literals cannot be used in Event Subscribers as they limit implementation and reference searches."
+        },
+        {
+            "id": "AC0016",
+            "action": "Error",
+            "justification": "Do not use line breaks in ToolTip; Business Central does not render formatting and the backslash appears literally"
+        },
+        {
+            "id": "AC0017",
+            "action": "Error",
+            "justification": "ToolTip should not exceed 200 characters so users can scan them quickly"
+        },
+        {
+            "id": "AC0018",
+            "action": "Error",
+            "justification": "Empty captions should be locked so they are not extracted into translation files"
+        },
+        {
+            "id": "DC0002",
+            "action": "Error",
+            "justification": "Writing to a FlowField requires a comment explaining why, since FlowField values are not persisted"
+        },
+        {
+            "id": "LC0003",
+            "action": "Error",
+            "justification": "Do not use Object IDs as object references; use object names for readability and compile-time safety"
+        },
+        {
+            "id": "FC0003",
+            "action": "Error",
+            "justification": "Use parenthesis for function calls so method invocations are visually distinct from property access"
+        },
+        {
+            "id": "AA0008",
+            "action": "Error",
+            "justification": "Function calls should have parenthesis even if they do not have any parameters"
         }
     ]
 }
