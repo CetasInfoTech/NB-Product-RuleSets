@@ -1,0 +1,11 @@
+{
+    "name": "BC NB Product Suppressed Ruleset",
+    "description": "Description",
+    "rules": [
+        {
+            "id": "PC0037",
+            "action": "None",
+            "justification": "Often assigning values to fields is required instead of validating values."
+        }
+    ]
+}

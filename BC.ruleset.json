@@ -9,6 +9,10 @@
     {
       "path": "https://raw.githubusercontent.com/CetasInfoTech/NB-Product-RuleSets/main/BC-Warning.ruleset.json",
       "action": "Warning"
+    },
+    {
+      "path": "https://raw.githubusercontent.com/CetasInfoTech/NB-Product-RuleSets/main/BC-Suppressed.ruleset.json",
+      "action": "None"
     }
   ]
 }
