@@ -31,6 +31,11 @@
             "id": "FC0002",
             "action": "Warning",
             "justification": "Casing of identifier references should match the original declaration for readability"
+        },
+        {
+            "id": "DC0007",
+            "action": "Warning",
+            "justification": "Public objects must include XML documentation comments for IntelliSense and API consumers"
         }
     ]
 }
